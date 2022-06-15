@@ -1,0 +1,8 @@
+<%= link_to "Sign up", new_user_path %>
+<br>
+<%= link_to "Log in", login_path %>
+<br>
+<% if logged_in? %>
+  <%= link_to "Edit user", edit_user_path(current_user.id) %> <br>
+  <%= link_to "Log out", logout_path, method: :delete %>
+<% end %>
