@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
   get 'users/dash_boards'
    # rootをログイン画面に設定
   devise_scope :user do
