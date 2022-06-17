@@ -20,11 +20,11 @@ class Users::ConfirmationsController < Devise::ConfirmationsController
 
   # The path used after resending confirmation instructions.
   # def after_resending_confirmation_instructions_path_for(resource_name)
-  #   super(resource_name)
+  #   users_dash_boards_index_path
   # end
 
   # The path used after confirmation.
   # def after_confirmation_path_for(resource_name, resource)
-  #   super(resource_name, resource)
+  #   users_dash_boards_index_p
   # end
 end
