@@ -28,6 +28,11 @@ ja:
         updated_at: 更新日
     models:
       user: ユーザー
+  users:
+    dash_boards:
+      index:
+        edit: 編集
+        signed_out: ログアウト
   devise:
     confirmations:
       confirmed: メールアドレスが確認できました。

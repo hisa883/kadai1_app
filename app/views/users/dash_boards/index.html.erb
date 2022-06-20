@@ -1,12 +1,11 @@
-
 <div class="container">
   <div class="row">
     <div class="col-md-4 offset-4 text-center">
       <h1>Dash Boards</h1>
       <h2><%= current_user.name %></h2>
       <div class="actions">
-        <%= link_to "編集", edit_user_registration_path, class: "btn btn-primary btn-pad" %> <br>
-        <%= link_to "ログアウト", signout_path, class: "btn btn-warning btn-pad" %>
+        <%= link_to t('.edit'), edit_user_registration_path, class: "btn btn-primary btn-pad" %> <br>
+        <%= link_to t('.signed_out'), signout_path, class: "btn btn-warning btn-pad" %>
       </div>
     </div>
   </div>
