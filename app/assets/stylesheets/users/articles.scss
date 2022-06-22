@@ -1,3 +1,13 @@
 // Place all the styles related to the users/articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.img_size1 {
+  width: auto; /* 横幅を割合で指定 */
+  height: 50px; /* 高さは自動指定 */
+}
+
+.img_size2 {
+  width: auto; /* 横幅を割合で指定 */
+  height: 300px; /* 高さは自動指定 */
+}

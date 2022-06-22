@@ -20,8 +20,8 @@
           <td><%=article.content %></td>
           <td>
             <% if article.img.present? %>
-              <div class="img-area" %>
-                <%= image_tag article.img.url %>
+              <div>
+                <%= image_tag article.img.url, class: "img_size1" %>
               </div>
             <% end %>
           </td>
