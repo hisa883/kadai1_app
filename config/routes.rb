@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   namespace :users do
     get 'dash_boards/index'
+    resources :articles
   end
   
   get 'users/dash_boards'
