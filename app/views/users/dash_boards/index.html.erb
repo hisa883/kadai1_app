@@ -1,5 +1,12 @@
-
-<%= link_to "プロフィール変更", edit_user_registration_path %>
-<%= link_to "ログアウト", signout_path %>
-<h1>Users::DashBoards#index</h1>
-<p>Find me in app/views/users/dash_boards/index.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 offset-4 text-center">
+      <h1>Dash Boards</h1>
+      <h2><%= current_user.name %></h2>
+      <div class="actions">
+        <%= link_to t('.edit'), edit_user_registration_path, class: "btn btn-primary btn-pad" %> <br>
+        <%= link_to t('.signed_out'), signout_path, class: "btn btn-warning btn-pad" %>
+      </div>
+    </div>
+  </div>
+</div>
